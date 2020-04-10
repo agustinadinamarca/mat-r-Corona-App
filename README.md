@@ -5,6 +5,8 @@ This app lists the symptoms, precautions, contact numbers (in Argentina) and num
 
 **Programming Language:** mat|r script
 
+**Author:** Agustina Dinamarca (agustinadinamarca@gmail.com)
+
 <img src="Images/img-1.jpg" width="25%" height="25%">
 <img src="Images/img-2.jpg" width="25%" height="25%">
 <img src="Images/img-3.jpg" width="25%" height="25%">
