@@ -1,5 +1,5 @@
 # mat|r Corona App
-Data and code of Corona App, a mobile application that I developed with [mat|r script](https://www.matrproject.com/).
+Data and code of Corona App, a mobile application that I developed with [mat|r script](https://www.matrproject.com/)  for Android and iOS devices.
 
 This app lists the symptoms, precautions, contact numbers (in Argentina) and number of cases, deaths and recoveries by country and worldwide for the COVID-19 pandemic.
 
