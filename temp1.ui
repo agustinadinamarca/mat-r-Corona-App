@@ -1,0 +1,4 @@
+<template alpha="1" backgroundColor="#FFFFFFFF" fontFamily="Roboto, sans-serif" paddingRight="8" paddingTop="3" paddingBottom="3" paddingLeft="8" borderWidth="1" borderColor="#E7E7E7FF" cornerRadius="10" mode="AspectFit" name="temp1">
+    <label alpha="1" marginTop="0" marginBottom="0" marginLeft="0" marginRight="0" paddingRight="2" paddingTop="2" paddingBottom="2" paddingLeft="2" textColor="#000000FF" fontFamily="Roboto-Bold" text="Edit your template" bind="title"/>
+    <label wpercentage="1" alpha="1" marginTop="0" marginBottom="0" marginLeft="0" marginRight="0" paddingRight="2" paddingTop="2" paddingBottom="2" paddingLeft="2" textColor="#3d464d" fontFamily="Roboto-Regular" text="Label" bind="num"/>
+</template>

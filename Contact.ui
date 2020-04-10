@@ -1,0 +1,13 @@
+<layout alpha="1" backgroundColor="#FFFFFFFF" fontFamily="Roboto, sans-serif" paddingRight="0" paddingTop="0" paddingBottom="0" paddingLeft="0" name="Contact">
+    <datasource type="Contact" name="contact"/>
+    <navigationBar title="Contactos" hideBackButton="false">
+        <leftButtons/>
+        <rightButtons/>
+    </navigationBar>
+    <list wpercentage="1" alpha="1" backgroundColor="#ffffff" marginTop="0" marginBottom="30" marginLeft="0" marginRight="0" paddingRight="0" paddingTop="0" paddingBottom="0" paddingLeft="0" bind="contact.c">
+        <templateRef name="temp1">
+            <map key="title" variable="{{item.title}}"/>
+            <map key="num" variable="{{item.num}}"/>
+        </templateRef>
+    </list>
+</layout>

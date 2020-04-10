@@ -1,0 +1,31 @@
+<layout alpha="1" backgroundColor="#FFFFFFFF" fontFamily="Roboto, sans-serif" paddingRight="18" paddingTop="150" paddingBottom="150" paddingLeft="18" name="Main">
+    <datasource type="Main" name="main"/>
+    <navigationBar title="Menú" hideBackButton="false">
+        <leftButtons/>
+        <rightButtons/>
+    </navigationBar>
+    <hcontainer wpercentage="1" alpha="1" fontFamily="Roboto, sans-serif" marginTop="0" marginBottom="0" marginLeft="0" marginRight="0" paddingRight="0" paddingTop="0" paddingBottom="0" paddingLeft="0" contentAlignment="center" selfAlignment="center">
+        <image width="150" height="150" bind="main.t1">
+            <event on="TapEvent">
+                <action type="RunRuleAction" ruleContext="MainContext" ruleName="r1"/>
+            </event>
+        </image>
+        <image width="150" height="150" marginLeft="20" bind="main.t2">
+            <event on="TapEvent">
+                <action type="RunRuleAction" ruleContext="MainContext" ruleName="r2"/>
+            </event>
+        </image>
+    </hcontainer>
+    <hcontainer wpercentage="1" alpha="1" fontFamily="Roboto, sans-serif" marginTop="30" marginBottom="0" marginLeft="0" marginRight="0" paddingRight="0" paddingTop="0" paddingBottom="0" paddingLeft="0" contentAlignment="center" selfAlignment="center">
+        <image width="150" height="150" bind="main.t3">
+            <event on="TapEvent">
+                <action type="RunRuleAction" ruleContext="MainContext" ruleName="r3"/>
+            </event>
+        </image>
+        <image width="150" height="150" marginLeft="20" bind="main.t4">
+            <event on="TapEvent">
+                <action type="RunRuleAction" ruleContext="MainContext" ruleName="r4"/>
+            </event>
+        </image>
+    </hcontainer>
+</layout>

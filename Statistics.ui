@@ -1,0 +1,29 @@
+<layout alpha="1" backgroundColor="#FFFFFFFF" fontFamily="Roboto, sans-serif" paddingRight="18" paddingTop="18" paddingBottom="18" paddingLeft="18" name="Statistics">
+    <datasource type="Statistics" name="statistics"/>
+    <navigationBar title="Estadísticas" hideBackButton="false">
+        <leftButtons/>
+        <rightButtons/>
+    </navigationBar>
+    <hcontainer wpercentage="1" alpha="1" fontFamily="Roboto, sans-serif" marginTop="0" marginBottom="8" marginLeft="0" marginRight="0" paddingRight="0" paddingTop="0" paddingBottom="0" paddingLeft="0" contentAlignment="center">
+        <vcontainer wpercentage="0.3" alpha="1" fontFamily="Roboto, sans-serif" marginTop="0" marginBottom="0" marginLeft="0" marginRight="0" paddingRight="0" paddingTop="0" paddingBottom="0" paddingLeft="0">
+            <label wpercentage="1" alpha="1" marginTop="0" marginBottom="8" marginLeft="0" marginRight="0" paddingRight="2" paddingTop="2" paddingBottom="2" paddingLeft="2" textColor="#3d464d" textAlignment="center" text="Casos Totales Confirmados"/>
+            <label wpercentage="1" alpha="1" marginTop="0" marginBottom="0" marginLeft="0" marginRight="0" paddingRight="2" paddingTop="2" paddingBottom="2" paddingLeft="2" textColor="#3d464d" textAlignment="center" fontFamily="Roboto-Bold" borderColor="#0D15F5FF" bind="statistics.casesW"/>
+        </vcontainer>
+        <vcontainer wpercentage="0.3" alpha="1" fontFamily="Roboto, sans-serif" marginTop="0" marginBottom="0" marginLeft="0" marginRight="0" paddingRight="0" paddingTop="0" paddingBottom="0" paddingLeft="0" contentAlignment="center">
+            <label wpercentage="1" alpha="1" marginTop="0" marginBottom="8" marginLeft="0" marginRight="0" paddingRight="2" paddingTop="2" paddingBottom="2" paddingLeft="2" textColor="#3d464d" textAlignment="center" text="Recuperaciones Totales"/>
+            <label alpha="1" marginTop="0" marginBottom="0" marginLeft="0" marginRight="0" paddingRight="2" paddingTop="2" paddingBottom="2" paddingLeft="2" textColor="#411ADFFF" textAlignment="center" fontFamily="Roboto-Bold" borderWidth="1" cornerRadius="3" borderColor="#411ADFFF" wpercentage="0.85" selfAlignment="center" bind="statistics.recoveredW"/>
+        </vcontainer>
+        <vcontainer wpercentage="0.3" alpha="1" fontFamily="Roboto, sans-serif" marginTop="0" marginBottom="0" marginLeft="0" marginRight="0" paddingRight="0" paddingTop="0" paddingBottom="0" paddingLeft="0" contentAlignment="center">
+            <label wpercentage="1" alpha="1" marginTop="0" marginBottom="8" marginLeft="0" marginRight="0" paddingRight="2" paddingTop="2" paddingBottom="2" paddingLeft="2" textColor="#3d464d" textAlignment="center" text="Fallecidos Totales"/>
+            <label wpercentage="0.85" alpha="1" marginTop="0" marginBottom="0" marginLeft="0" marginRight="0" paddingRight="2" paddingTop="2" paddingBottom="2" paddingLeft="2" textColor="#FA1313FF" textAlignment="center" fontFamily="Roboto-Bold" borderWidth="1" cornerRadius="3" borderColor="#F50D0DFF" selfAlignment="center" bind="statistics.deathsW"/>
+        </vcontainer>
+    </hcontainer>
+    <list wpercentage="1" alpha="1" backgroundColor="#ffffff" marginTop="0" marginBottom="8" marginLeft="0" marginRight="0" paddingRight="0" paddingTop="0" paddingBottom="0" paddingLeft="0" borderColor="#DF1111FF" bind="statistics.paises">
+        <templateRef name="temp">
+            <map key="country" variable="{{item.country}}"/>
+            <map key="cases" variable="{{item.cases}}"/>
+            <map key="recovered" variable="{{item.recovered}}"/>
+            <map key="deaths" variable="{{item.deaths}}"/>
+        </templateRef>
+    </list>
+</layout>
