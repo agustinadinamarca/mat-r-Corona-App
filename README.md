@@ -5,9 +5,8 @@ This app lists the symptoms, precautions, contact numbers (in Argentina) and num
 
 **Programming Language:** mat|r script
 
-**Test App:** download the [mat|r Viewer](http://matrproject.com/docs/eng/viewer-eng/), a tool which allows you visualizing and testing the developed app instantly in compatible platforms. Visualize the app on your phone scanning the following QR code with mat|r Viewer:
+**Test App:** download the [mat|r Viewer](http://matrproject.com/docs/eng/viewer-eng/), a tool which allows you visualizing and testing the developed app instantly in compatible platforms. Visualize the app on your phone scanning the QR code with mat|r Viewer:
 
-<img src="Images/qr-corona.png" width="20%" height="20%">
 
 **Author:** Agustina Dinamarca (agustinadinamarca@gmail.com)
 
